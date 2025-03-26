@@ -1,0 +1,177 @@
+* {
+    box-sizing: border-box;
+}
+header{
+    border-bottom: 5px solid rgb(240, 238, 238);
+}
+.title {
+    font-size: 19px;
+    font-family: "Rubik", sans-serif;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 9px;
+}
+
+.dil {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.dp {
+    text-align: center;
+    display: flex;
+    box-sizing: border-box;
+    justify-content: center;
+}
+
+.delivery {
+    padding: 20px;
+    margin: 10px;
+    border-left: 150px solid #ffffff;
+    border-right: 200px solid #ffffff;
+    border-bottom: 1px solid rgb(208, 203, 203);
+    font-size: medium;
+    font-family: "Rubik", sans-serif;
+}
+
+.delivery:hover {
+    cursor: pointer;
+    border-bottom: 1px solid rgb(26, 25, 25);
+}
+
+.pickup {
+    padding: 20px;
+    margin: 10px;
+    border-left: 150px solid #ffffff;
+    border-right: 200px solid #ffffff;
+    border-bottom: 1px solid rgb(208, 203, 203);
+    font-size: medium;
+    font-family: "Rubik", sans-serif;
+}
+
+.pickup:hover {
+    cursor: pointer;
+    border-bottom: 1px solid rgb(26, 25, 25);
+
+}
+
+h3 {
+    color: rgb(172, 165, 172);
+    text-align: center;
+    font-size: large;
+    font-family: "Rubik", sans-serif;
+    font-weight: normal;
+}
+
+p {
+    text-align: center;
+    font-size: 40px;
+    font-family: "Rubik", sans-serif;
+    font-weight: bold;
+    line-height: 0.5rem;
+}
+
+.middle {
+    padding: 80px;
+    display: flex;
+    flex-flow: wrap row;
+    justify-content: center;
+    box-sizing: border-box;
+    flex-direction: row;
+    row-gap: 10px;
+}
+
+.location {
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    width: 300px;
+    height: 50px;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: "Rubik", sans-serif;
+    text-align: center;
+}
+
+.location:hover {
+    cursor: pointer;
+}
+
+.setlocation {
+    border: 1px solid black;
+    border-radius: 10px;
+    color: white;
+    width: 300px;
+    height: 50px;
+}
+
+.setlocation:hover {
+    cursor: pointer;
+}
+
+.search {
+    color: rgb(196, 192, 196);
+    font-size: 18px;
+    text-align: center;
+    font-weight: bold;
+    font-family: "Rubik", sans-serif;
+}
+
+.current {
+    color: rgb(255, 254, 255);
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    font-family: "Rubik", sans-serif;
+}
+
+.syl {
+    color: rgb(196, 192, 196);
+    font-size: 18px;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+    font-family: "Rubik", sans-serif;
+    float: right;
+
+}
+
+.wtd {
+    text-align: center;
+    color: rgba(156, 149, 156, 0.752);
+    font-size: 11px;
+    text-align: center;
+    font-family: "Rubik", sans-serif;
+    line-height: 1rem;
+    float: right;
+}
+
+.foot {
+    border-top: 5px solid rgb(246, 244, 244);
+}
+
+.lower {
+    padding-top: 50px;
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.locf {
+    width: 300px;
+}
+
+.chooseitem {
+    width: 300px;
+}
+
+.instadelivery {
+    width: 300px;
+}
